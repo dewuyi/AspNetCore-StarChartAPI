@@ -17,5 +17,10 @@ namespace StarChart.Controllers
         {
             _context = context;
         }
+
+        public IActionResult GetById(int id)
+        {
+
+        }
     }
 }
